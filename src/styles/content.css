@@ -1,0 +1,57 @@
+.dashboard{
+    display: flex;
+    gap: 20px;
+    justify-content: center
+}
+
+
+.dashboard--content{
+    background-color: #fff;
+    flex: 1;
+    border-radius:20px ;
+    padding: 2rem;
+    display: flex;
+    gap:1.5rem;
+    justify-content: space-between;
+}
+
+.content {
+    width:75%;
+    height: auto;
+
+}
+.content--header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header--title{
+   color: #526d82;
+}
+.header--activity{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.search-box {
+    background: #dde6ed;
+    padding: 8px 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.search-box input{
+    border:none ;
+    outline: none;
+    background: transparent;
+    padding: 5px;
+    outline: none;
+
+}
+.search-box .icon{
+    color: #969393;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.5 ease-in-out;
+}
+
